@@ -5,6 +5,10 @@ Created on Thu Jan 23 01:11:24 2020
 @author: Tanmay Thakur
 """
 
+"""
+Visualization Function Add
+"""
+
 import os
 import sys
 import random
@@ -23,7 +27,7 @@ ROOT_DIR = os.path.abspath("../")
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
-from mrcnn import utils
+import utils
 
 
 ############################################################
